@@ -6,5 +6,6 @@ def get_multiplied_digits(number):
     else:
         return first
 
-result = (get_multiplied_digits(40203))
+ishod="0040203"
+result = get_multiplied_digits(int(ishod))
 print(result)
