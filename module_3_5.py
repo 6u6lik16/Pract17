@@ -10,5 +10,7 @@ def get_multiplied_digits(number):
             return first
 
 ishod="00402030000"
+ishod = ishod.strip("0")
+print(ishod)
 result = get_multiplied_digits(int(ishod))
 print(result)
